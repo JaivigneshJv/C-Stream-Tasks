@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+    background-color: white;
+    color:black;
+
+}
+p{
+  margin:20px
+  
+}
+input {
+    display: block;
+    margin: 20px;
+    color:black;
+    padding: 8px 16px;
+    width: 40%;
+    min-height: 44px; 
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+}
+                                            /* BEST PRACTICES */
+button {                                    
+ background-color: #007bff;
+ color: #fff; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+margin: 10px;
+} 
+button:hover { 
+background-color: #0056b3; 
+} 
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+    background: blue;
+    color:white;
+} 
